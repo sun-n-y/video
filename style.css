@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+
+h1 {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 4rem;
+    color: white;
+    text-transform: capitalize;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.control {
+    position: fixed;
+    bottom: 5rem;
+    left: 5rem;
+    background-color: transparent;
+    border: none;
+    padding: 1rem;
+    background-color: white;
+    display: flex;
+    column-gap: 1.8rem;
+    font-size: 1rem;
+    text-transform: capitalize;
+    color: rgb(44, 130, 228);
+    border-radius: 1rem;
+}
+
+.control::before {
+    content: '';
+    position: fixed;
+    z-index: -1000;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.281);
+}
+
+.slider {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 4.5rem;
+    border-radius: 1rem;
+    background-color: rgb(44, 130, 228);
+    transition: all 1s ease;
+}
+
+.slide {
+    transform: translateX(91%);
+}
