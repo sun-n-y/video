@@ -7,6 +7,7 @@
 - ### arrow funtions
 - ### flex box
 - ### before pseudo 
-- ### transform 
+- ### transform property
+- ### preloader gif
 
 [Back to Top](#custom_anchor_name)
