@@ -41,6 +41,7 @@ video {
     text-transform: capitalize;
     color: rgb(44, 130, 228);
     border-radius: 1rem;
+    cursor: pointer;
 }
 
 
