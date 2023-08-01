@@ -1,5 +1,5 @@
 <a name="custom_anchor_name"></a>
-# video webpage, using vanilla HTML, CSS, and JavaScript	:pancakes: :ice_cream::hamburger: :green_salad: 
+# a video webpage, using vanilla HTML, CSS, and JavaScript :ocean:
 ## Concepts applied (*but not limited too*)
 
 - ### query selector
